@@ -1,7 +1,7 @@
 import { FEATURED_PROPERTIES } from '@/constants'
 import React from 'react'
 import Link from 'next/link'
-import { Image, Star } from 'lucide-react'
+import {  Star } from 'lucide-react'
 
 const FeaturedProperties = () => {
   return (
