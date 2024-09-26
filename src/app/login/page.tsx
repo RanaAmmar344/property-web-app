@@ -4,6 +4,7 @@
 import Navbar from '@/components/Navbar'
 import React from 'react'
 import MyFooter from '@/components/MyFooter'
+import Link from 'next/link'
 
 const page = () => {
   return (
@@ -62,7 +63,7 @@ const page = () => {
             </div>
             <div className="mt-4 flex items-center justify-between">
                 <span className="border-b w-1/5 md:w-1/4"></span>
-                <a href="#" className="text-xs text-gray-500 uppercase">or sign up</a>
+                <Link href="/signup" className="text-bold  text-gray-600 uppercase hover:text-red-500 ">or sign up</Link>
                 <span className="border-b w-1/5 md:w-1/4"></span>
             </div>
         </div>

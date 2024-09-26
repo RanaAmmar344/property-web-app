@@ -51,7 +51,7 @@ const Navbar = () => {
                     <div className=' hidden lg:flex text-sm text-white' >
 
                     <Link href="/login"> <Button variant='outline' className='mr-2 bg-black' > Sign in </Button> </Link> 
-                        <Button className='bg-slate-800'>Sign UP</Button>
+                      <Link href='/signup' >  <Button className='bg-slate-800'>Sign UP</Button></Link>
                     </div>
                     <div className='flex-col justify-end text-white md:flex lg:hidden' >
 
