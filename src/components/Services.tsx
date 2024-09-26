@@ -1,3 +1,4 @@
+"use client"
 import { SERVICES_TEXT } from '@/constants'
 import React from 'react'
 

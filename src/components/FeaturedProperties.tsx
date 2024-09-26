@@ -1,3 +1,4 @@
+"use client"
 import { FEATURED_PROPERTIES } from '@/constants'
 import React from 'react'
 import Link from 'next/link'

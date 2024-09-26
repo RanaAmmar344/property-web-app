@@ -1,3 +1,4 @@
+"use client"
 import { FOOTER } from '@/constants'
 import { FacebookIcon, GithubIcon, InstagramIcon,  TwitchIcon } from 'lucide-react'
 import React from 'react'

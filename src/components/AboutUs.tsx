@@ -1,3 +1,4 @@
+"use client"
 import { ABOUT_US_TEXT } from '@/constants'
 import React from 'react'
 

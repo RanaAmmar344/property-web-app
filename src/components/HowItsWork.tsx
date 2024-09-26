@@ -1,3 +1,4 @@
+"use client"
 import { HOW_IT_WORKS } from '@/constants'
 import {  CircleCheckBig } from 'lucide-react'
 import React from 'react'

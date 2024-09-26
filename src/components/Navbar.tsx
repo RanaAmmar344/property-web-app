@@ -80,7 +80,7 @@ const Navbar = () => {
                         </ul>
                         <div className=' flex justify-center pb-5 text-sm text-white' >
 
-<Button variant='outline' className='mr-2 bg-black' > Sign in </Button>
+<Button variant='outline'  className='mr-2 bg-black' > Sign in </Button>
 <Button className='bg-slate-800'>Sign UP</Button>
 </div>
                     </div>

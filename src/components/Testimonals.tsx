@@ -1,3 +1,4 @@
+"use client"
 import { TESTIMONIALS } from '@/constants'
 import React from 'react'
 
