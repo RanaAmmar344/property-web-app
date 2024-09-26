@@ -2,6 +2,8 @@ import { FEATURED_PROPERTIES } from '@/constants'
 import React from 'react'
 import Link from 'next/link'
 import {  Star } from 'lucide-react'
+import Image from 'next/image';
+
 
 const FeaturedProperties = () => {
   return (
@@ -13,7 +15,7 @@ const FeaturedProperties = () => {
         <div key={index} className='  flex items-center justify-center mt-8 sm:w-1/2 md:w-1/3 lg:w-1/4  ' >
            <Link href='#' className=' m-2  inline-block'>
            <div>
-            <img
+            <Image
             className='rounded-md object-cover mb-8'
             src={property.image}
             height={250}
