@@ -5,6 +5,7 @@ export const NAV_LINKS = [
   { title: "About", url: "#" },
   { title: "Reviews", url: "#" },
   { title: "Faq", url: "#" },
+  
 ];
 
 export const HERO = {

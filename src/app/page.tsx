@@ -9,6 +9,8 @@ import Testimonals from '../components/Testimonals'
 import Faq from '@/components/Faq'
 import MyFooter from '@/components/MyFooter'
 
+
+
 const Home
  = () => {
   return (
@@ -22,6 +24,7 @@ const Home
       <Testimonals/>
       <Faq/>
       <MyFooter/>
+    
     </>
   )
 }
